@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">View PDF - pp.pdf</h1>
+
+    <div class="pdf-container">
+        <embed src="./pp.pdf" width="100%" height="100%" type="application/pdf">
+        <!-- Alternatively, you can use <iframe> instead of <embed> -->
+        <!-- <iframe src="pp.pdf" width="100%" height="100%"></iframe> -->
+    </div>
+
+</body>
+</html>
